@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>呂奕萱 個人履歷</title>
+    <style>
+        body {
+            font-family: '微軟正黑體', 'Microsoft JhengHei', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #007bff;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            color: #007bff;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            color: #007bff;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .experience-list li, .education-list li {
+            font-size: 1.1em;
+            margin-bottom: 12px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .experience-list li::before, .education-list li::before {
+            content: '•';
+            color: #007bff;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .skill-list li strong {
+            display: inline-block;
+            width: 80px;
+            color: #007bff;
+        }
+        .language-skill p {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        .profile-picture {
+            display: block;
+            margin: 0 auto 20px;
+            width: 150px; /* 設置圖片大小 */
+            height: 150px;
+            border-radius: 50%; /* 圓形頭像 */
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            /* 由於無法嵌入PDF中的圖片，這裡使用一個佔位符 */
+            background-color: #ddd; 
+            text-align: center;
+            line-height: 140px;
+            color: #666;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="profile-picture">
+            **個人照片**
+        </div>
+
+        <header>
+            <h1>呂奕萱</h1>
+            <div class="contact-info">
+                <p><strong>電話：</strong>0988748238</p>
+                <p><strong>Email：</strong>nalu05181@gmail.com</p>
+                <p><strong>地址：</strong>基隆市</p>
+            </div>
+        </header>
+
+        <section>
+            <h2>學歷</h2>
+            <ul class="education-list">
+                <li>基隆市立安樂高級中學</li>
+                <li>基隆市私立二信國中</li>
+                <li>基隆市安樂國小</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>經歷</h2>
+            <ul class="experience-list">
+                <li>全國海洋能源競賽 <strong>亞軍</strong></li>
+                <li>全國高中醫療科技創意競賽</li>
+                <li>基隆市政府&加州大學柏克萊分校 (ROAR Academy)</li>
+                <li>安樂高中校內化學競賽 佳作</li>
+                <li>安樂高中校內字音字形競賽 佳作</li>
+                <li>安樂高中校內書法競賽 佳作</li>
+                <li>安樂高中演辯社 <strong>器材長</strong></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>個人專長與技能</h2>
+            <ul class="skill-list">
+                <li><strong>團隊合作:</strong> 樂於分享知識,並能主動協助隊友達成目標。</li>
+                <li><strong>學習能力:</strong> 樂於探索新事物,並秉持勤奮而嚴謹的態度學習。</li>
+                <li><strong>專注力:</strong> 能夠長時間專注於一項任務,追求細節完美。</li>
+                <li><strong>同理心:</strong> 能夠理解他人感受,在人際互動中展現關懷。</li>
+                <li><strong>臨場反應:</strong> 表演時面對觀眾能夠處理突發狀況。</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>語言能力</h2>
+            <div class="language-skill">
+                <p>多益 (TOEIC): 560 分</p>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
